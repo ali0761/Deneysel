@@ -1,0 +1,17 @@
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\bin\Debug\net8.0\CicekSepeti.Data.deps.json
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\bin\Debug\net8.0\CicekSepeti.Data.runtimeconfig.json
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\bin\Debug\net8.0\CicekSepeti.Data.dll
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\bin\Debug\net8.0\CicekSepeti.Data.pdb
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\bin\Debug\net8.0\CicekSepeti.Core.dll
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\bin\Debug\net8.0\CicekSepeti.Core.pdb
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\CicekSepeti.Data.csproj.AssemblyReference.cache
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\CicekSepeti.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\CicekSepeti.Data.AssemblyInfoInputs.cache
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\CicekSepeti.Data.AssemblyInfo.cs
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\CicekSepeti.Data.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\CicekSep.440CA3FA.Up2Date
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\CicekSepeti.Data.dll
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\refint\CicekSepeti.Data.dll
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\CicekSepeti.Data.pdb
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\CicekSepeti.Data.genruntimeconfig.cache
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Data\obj\Debug\net8.0\ref\CicekSepeti.Data.dll

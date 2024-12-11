@@ -1,0 +1,17 @@
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\bin\Debug\net8.0\CicekSepeti.Service.deps.json
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\bin\Debug\net8.0\CicekSepeti.Service.dll
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\bin\Debug\net8.0\CicekSepeti.Service.pdb
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\obj\Debug\net8.0\CicekSepeti.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\obj\Debug\net8.0\CicekSepeti.Service.AssemblyInfoInputs.cache
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\obj\Debug\net8.0\CicekSepeti.Service.AssemblyInfo.cs
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\obj\Debug\net8.0\CicekSepeti.Service.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\obj\Debug\net8.0\CicekSepeti.Service.dll
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\obj\Debug\net8.0\refint\CicekSepeti.Service.dll
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\obj\Debug\net8.0\CicekSepeti.Service.pdb
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\obj\Debug\net8.0\ref\CicekSepeti.Service.dll
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\bin\Debug\net8.0\CicekSepeti.Core.dll
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\bin\Debug\net8.0\CicekSepeti.Data.dll
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\bin\Debug\net8.0\CicekSepeti.Data.pdb
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\bin\Debug\net8.0\CicekSepeti.Core.pdb
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\obj\Debug\net8.0\CicekSepeti.Service.csproj.AssemblyReference.cache
+C:\Users\muham\source\repos\ciceksepeti\CicekSepeti.Service\obj\Debug\net8.0\CicekSep.FE2E8131.Up2Date
