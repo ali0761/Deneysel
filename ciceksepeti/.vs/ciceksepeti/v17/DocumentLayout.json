@@ -3,60 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FAB195C-3D9C-44FB-8EB4-E98B52284A66}|CicekSepeti.Core\\CicekSepeti.Core.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FAB195C-3D9C-44FB-8EB4-E98B52284A66}|CicekSepeti.Core\\CicekSepeti.Core.csproj|solutionrelative:ciceksepeti.core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\news\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\news\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FAB195C-3D9C-44FB-8EB4-E98B52284A66}|CicekSepeti.Core\\CicekSepeti.Core.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FAB195C-3D9C-44FB-8EB4-E98B52284A66}|CicekSepeti.Core\\CicekSepeti.Core.csproj|solutionrelative:ciceksepeti.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FAB195C-3D9C-44FB-8EB4-E98B52284A66}|CicekSepeti.Core\\CicekSepeti.Core.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.core\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FAB195C-3D9C-44FB-8EB4-E98B52284A66}|CicekSepeti.Core\\CicekSepeti.Core.csproj|solutionrelative:ciceksepeti.core\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\brands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\brands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\shared\\_solmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\shared\\_solmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\utils\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\utils\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FAB195C-3D9C-44FB-8EB4-E98B52284A66}|CicekSepeti.Core\\CicekSepeti.Core.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.core\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAB195C-3D9C-44FB-8EB4-E98B52284A66}|CicekSepeti.Core\\CicekSepeti.Core.csproj|solutionrelative:ciceksepeti.core\\entities\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\brands\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\brands\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\brands\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\brands\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\brands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\brands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|c:\\users\\muham\\source\\repos\\ciceksepeti\\ciceksepeti.webui\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C00AD84-79F6-4F66-92B5-0B5F459B95B2}|CicekSepeti.WebUI\\CicekSepeti.WebUI.csproj|solutionrelative:ciceksepeti.webui\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,29 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_SolMenu.cshtml",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_SolMenu.cshtml",
-              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_SolMenu.cshtml",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_SolMenu.cshtml",
-              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_SolMenu.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBUAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T23:12:34.625Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -96,171 +54,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
-              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
-              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T22:54:14.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.Core\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "CicekSepeti.Core\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.Core\\Entities\\Category.cs",
-              "RelativeToolTip": "CicekSepeti.Core\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T22:53:10.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.Core\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "CicekSepeti.Core\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.Core\\Entities\\Product.cs",
-              "RelativeToolTip": "CicekSepeti.Core\\Entities\\Product.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAywDAAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T22:53:34.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.Core\\Entities\\Brand.cs",
-              "RelativeDocumentMoniker": "CicekSepeti.Core\\Entities\\Brand.cs",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.Core\\Entities\\Brand.cs",
-              "RelativeToolTip": "CicekSepeti.Core\\Entities\\Brand.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBYAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T22:53:15.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T22:25:25.205Z",
+              "WhenOpened": "2024-12-12T18:00:40.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T18:00:07.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Index.cshtml",
-              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Index.cshtml",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Index.cshtml",
-              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Title": "News.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.Core\\Entities\\News.cs",
+              "RelativeDocumentMoniker": "CicekSepeti.Core\\Entities\\News.cs",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.Core\\Entities\\News.cs",
+              "RelativeToolTip": "CicekSepeti.Core\\Entities\\News.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:53:49.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_SolMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_SolMenu.cshtml",
+              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_SolMenu.cshtml",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_SolMenu.cshtml",
+              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_SolMenu.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T18:31:53.413Z",
+              "WhenOpened": "2024-12-12T17:47:47.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T18:10:35.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\News\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T18:05:50.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:58:40.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwDUAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T22:03:37.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Delete.cshtml",
-              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Delete.cshtml",
-              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T21:09:16.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FileHelper.cs",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Utils\\FileHelper.cs",
-              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Utils\\FileHelper.cs",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Utils\\FileHelper.cs",
-              "RelativeToolTip": "CicekSepeti.WebUI\\Utils\\FileHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T18:52:01.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BrandsController.cs",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\BrandsController.cs",
-              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\BrandsController.cs",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\BrandsController.cs",
-              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Controllers\\BrandsController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwJoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T21:05:28.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AgIAACYAAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T20:20:37.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Edit.cshtml",
-              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Edit.cshtml",
-              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Edit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T20:04:49.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Create.cshtml",
-              "RelativeDocumentMoniker": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Create.cshtml",
-              "ToolTip": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Create.cshtml",
-              "RelativeToolTip": "CicekSepeti.WebUI\\Areas\\Admin\\Views\\Brands\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T18:40:40.539Z",
+              "WhenOpened": "2024-12-12T17:40:56.372Z",
               "EditorCaption": ""
             }
           ]

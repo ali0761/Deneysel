@@ -5,84 +5,88 @@
       "PackagePath": "staticwebassets\\CicekSepeti.WebUI.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Categories\\999999999999.jpeg",
+      "PackagePath": "staticwebassets\\Img\\Categories\\999999999999.jpeg"
+    },
+    {
       "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\rick.jpeg",
       "PackagePath": "staticwebassets\\Img\\rick.jpeg"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\401.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\401.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\401.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\401.html"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\404.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\404.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\404.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\404.html"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\500.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\500.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\500.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\500.html"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-area-demo.js",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-area-demo.js"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\admin\\admin\\assets\\demo\\chart-area-demo.js"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-bar-demo.js",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-bar-demo.js"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\admin\\admin\\assets\\demo\\chart-bar-demo.js"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-pie-demo.js",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-pie-demo.js"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\admin\\admin\\assets\\demo\\chart-pie-demo.js"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\datatables-demo.js",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\datatables-demo.js"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\admin\\admin\\assets\\demo\\datatables-demo.js"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\img\\error-404-monochrome.svg",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\img\\error-404-monochrome.svg"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\admin\\admin\\assets\\img\\error-404-monochrome.svg"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\charts.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\charts.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\charts.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\charts.html"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\css\\styles.css",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\css\\styles.css"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\css\\styles.css",
+      "PackagePath": "staticwebassets\\admin\\admin\\css\\styles.css"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\index.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\index.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\index.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\index.html"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\js\\datatables-simple-demo.js",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\js\\datatables-simple-demo.js"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\admin\\admin\\js\\datatables-simple-demo.js"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\js\\scripts.js",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\js\\scripts.js"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\admin\\admin\\js\\scripts.js"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\layout-sidenav-light.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\layout-sidenav-light.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\layout-sidenav-light.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\layout-sidenav-light.html"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\layout-static.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\layout-static.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\layout-static.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\layout-static.html"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\login.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\login.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\login.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\login.html"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\password.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\password.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\password.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\password.html"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\register.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\register.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\register.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\register.html"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\tables.html",
-      "PackagePath": "staticwebassets\\admin\\startbootstrap-sb-admin-gh-pages\\tables.html"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\tables.html",
+      "PackagePath": "staticwebassets\\admin\\admin\\tables.html"
     },
     {
       "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\css\\site.css",

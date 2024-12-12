@@ -2,29 +2,27 @@
 using Microsoft.EntityFrameworkCore;
 using CicekSepeti.Core.Entities;
 using CicekSepeti.Data;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using CicekSepeti.WebUI.Utils;
-using System.Drawing.Drawing2D;
 
 namespace CicekSepeti.WebUI.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class CategoriesController : Controller
+    public class NewsController : Controller
     {
         private readonly DatabaseContext _context;
 
-        public CategoriesController(DatabaseContext context)
+        public NewsController(DatabaseContext context)
         {
             _context = context;
         }
 
-        // GET: Admin/Categories
+        // GET: Admin/News
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Categories.ToListAsync());
+            return View(await _context.News.ToListAsync());
         }
 
-        // GET: Admin/Categories/Details/5
+        // GET: Admin/News/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -32,42 +30,38 @@ namespace CicekSepeti.WebUI.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Categories
+            var news = await _context.News
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (category == null)
+            if (news == null)
             {
                 return NotFound();
             }
 
-            return View(category);
+            return View(news);
         }
 
-        // GET: Admin/Categories/Create
+        // GET: Admin/News/Create
         public IActionResult Create()
         {
-            ViewBag.Kategoriler = new SelectList(_context.Categories,"ID","Name");             
-
-			return View();
+            return View();
         }
 
-        // POST: Admin/Categories/Create
+        // POST: Admin/News/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Category category, IFormFile? Image)
+        public async Task<IActionResult> Create(News news, IFormFile? Image)
         {
             if (ModelState.IsValid)
             {
-				category.Image = await FileHelper.FileLoaderAsync(Image, "/Img/Categories/");
-				await _context.AddAsync(category);
+				news.Image = await FileHelper.FileLoaderAsync(Image);
+				_context.Add(news);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-			ViewBag.Kategoriler = new SelectList(_context.Categories, "ID", "Name");
-
-			return View(category);
+            return View(news);
         }
 
-        // GET: Admin/Categories/Edit/5
+        // GET: Admin/News/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -75,22 +69,20 @@ namespace CicekSepeti.WebUI.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Categories.FindAsync(id);
-            if (category == null)
+            var news = await _context.News.FindAsync(id);
+            if (news == null)
             {
                 return NotFound();
             }
-			ViewBag.Kategoriler = new SelectList(_context.Categories, "ID", "Name");
-
-			return View(category);
+            return View(news);
         }
 
-        // POST: Admin/Categories/Edit/5
+        // POST: Admin/News/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id,Category category, IFormFile? Image, bool cbResimSil = false)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Description,Image,IsActive")] News news)
         {
-            if (id != category.ID)
+            if (id != news.ID)
             {
                 return NotFound();
             }
@@ -99,20 +91,12 @@ namespace CicekSepeti.WebUI.Areas.Admin.Controllers
             {
                 try
                 {
-					if (cbResimSil)
-					{
-						category.Image = string.Empty;
-					}
-					if (Image is not null)
-                    {
-                        category.Image = await FileHelper.FileLoaderAsync(Image, "/Img/Categories/");
-                    }
-						_context.Update(category);
+                    _context.Update(news);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CategoryExists(category.ID))
+                    if (!NewsExists(news.ID))
                     {
                         return NotFound();
                     }
@@ -123,12 +107,10 @@ namespace CicekSepeti.WebUI.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-			ViewBag.Kategoriler = new SelectList(_context.Categories, "ID", "Name");
-
-			return View(category);
+            return View(news);
         }
 
-        // GET: Admin/Categories/Delete/5
+        // GET: Admin/News/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -136,38 +118,34 @@ namespace CicekSepeti.WebUI.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Categories
+            var news = await _context.News
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (category == null)
+            if (news == null)
             {
                 return NotFound();
             }
 
-            return View(category);
+            return View(news);
         }
 
-        // POST: Admin/Categories/Delete/5
+        // POST: Admin/News/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var category = await _context.Categories.FindAsync(id);
-            if (category != null)
+            var news = await _context.News.FindAsync(id);
+            if (news != null)
             {
-                if (!string.IsNullOrEmpty(category.Image))
-                {
-                    FileHelper.FileRemover(category.Image, "/Img/Categories/");
-                }
-                _context.Categories.Remove(category);
+                _context.News.Remove(news);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CategoryExists(int id)
+        private bool NewsExists(int id)
         {
-            return _context.Categories.Any(e => e.ID == id);
+            return _context.News.Any(e => e.ID == id);
         }
     }
 }

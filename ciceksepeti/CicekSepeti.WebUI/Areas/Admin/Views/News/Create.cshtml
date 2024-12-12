@@ -1,7 +1,7 @@
-﻿@model Brand
+﻿@model News
 
 @{
-    ViewData["Title"] = "Marka Ekle";
+    ViewData["Title"] = "Duyuru Ekle";
 }
 
 <hr />
@@ -20,9 +20,9 @@
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Logo" class="control-label"></label>
-                <input asp-for="Logo" class="form-control" type="file" />
-                <span asp-validation-for="Logo" class="text-danger"></span>
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" type="file" />
+                <span asp-validation-for="Image" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
@@ -30,18 +30,10 @@
                 </label>
             </div>
             <div class="form-group">
-                <label asp-for="OrderNo" class="control-label"></label>
-                <input asp-for="OrderNo" class="form-control" />
-                <span asp-validation-for="OrderNo" class="text-danger"></span>
-            </div>
-            <div class="form-group mt-2">
                 <input type="submit" value="Ekle" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Listeye Dön</a>
-</div>
 

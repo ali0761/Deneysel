@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GqOQmdtCdhn+ji5K+GdAogkjTua79tsov3411W/GFYw=",
+  "Hash": "IR/mKCGFP4ifcxftwrKE0APrEHiN7OtitLhaQVWNp1s=",
   "Source": "CicekSepeti.WebUI",
   "BasePath": "_content/CicekSepeti.WebUI",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CicekSepeti.WebUI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\401.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\401.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/401.html",
+      "RelativePath": "admin/admin/401.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\401.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\401.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\404.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\404.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/404.html",
+      "RelativePath": "admin/admin/404.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\404.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\404.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\500.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\500.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/500.html",
+      "RelativePath": "admin/admin/500.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\500.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\500.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-area-demo.js",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\assets\\demo\\chart-area-demo.js",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/assets/demo/chart-area-demo.js",
+      "RelativePath": "admin/admin/assets/demo/chart-area-demo.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-area-demo.js"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\assets\\demo\\chart-area-demo.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-bar-demo.js",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\assets\\demo\\chart-bar-demo.js",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/assets/demo/chart-bar-demo.js",
+      "RelativePath": "admin/admin/assets/demo/chart-bar-demo.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-bar-demo.js"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\assets\\demo\\chart-bar-demo.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-pie-demo.js",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\assets\\demo\\chart-pie-demo.js",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/assets/demo/chart-pie-demo.js",
+      "RelativePath": "admin/admin/assets/demo/chart-pie-demo.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\chart-pie-demo.js"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\assets\\demo\\chart-pie-demo.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\datatables-demo.js",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\assets\\demo\\datatables-demo.js",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/assets/demo/datatables-demo.js",
+      "RelativePath": "admin/admin/assets/demo/datatables-demo.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\demo\\datatables-demo.js"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\assets\\demo\\datatables-demo.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\img\\error-404-monochrome.svg",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\assets\\img\\error-404-monochrome.svg",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/assets/img/error-404-monochrome.svg",
+      "RelativePath": "admin/admin/assets/img/error-404-monochrome.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\assets\\img\\error-404-monochrome.svg"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\assets\\img\\error-404-monochrome.svg"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\charts.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\charts.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/charts.html",
+      "RelativePath": "admin/admin/charts.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,15 +223,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\charts.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\charts.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\css\\styles.css",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\css\\styles.css",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/css/styles.css",
+      "RelativePath": "admin/admin/css/styles.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\css\\styles.css"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\index.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\index.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/index.html",
+      "RelativePath": "admin/admin/index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,15 +261,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\index.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\index.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\js\\datatables-simple-demo.js",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\js\\datatables-simple-demo.js",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/js/datatables-simple-demo.js",
+      "RelativePath": "admin/admin/js/datatables-simple-demo.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,15 +280,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\js\\datatables-simple-demo.js"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\js\\datatables-simple-demo.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\js\\scripts.js",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\js\\scripts.js",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/js/scripts.js",
+      "RelativePath": "admin/admin/js/scripts.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,15 +299,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\js\\scripts.js"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\js\\scripts.js"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\layout-sidenav-light.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\layout-sidenav-light.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/layout-sidenav-light.html",
+      "RelativePath": "admin/admin/layout-sidenav-light.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,15 +318,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\layout-sidenav-light.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\layout-sidenav-light.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\layout-static.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\layout-static.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/layout-static.html",
+      "RelativePath": "admin/admin/layout-static.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\layout-static.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\layout-static.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\login.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\login.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/login.html",
+      "RelativePath": "admin/admin/login.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -356,15 +356,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\login.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\login.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\password.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\password.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/password.html",
+      "RelativePath": "admin/admin/password.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -375,15 +375,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\password.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\password.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\register.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\register.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/register.html",
+      "RelativePath": "admin/admin/register.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -394,15 +394,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\register.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\register.html"
     },
     {
-      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\tables.html",
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\tables.html",
       "SourceId": "CicekSepeti.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
       "BasePath": "_content/CicekSepeti.WebUI",
-      "RelativePath": "admin/startbootstrap-sb-admin-gh-pages/tables.html",
+      "RelativePath": "admin/admin/tables.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -413,7 +413,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin\\startbootstrap-sb-admin-gh-pages\\tables.html"
+      "OriginalItemSpec": "wwwroot\\admin\\admin\\tables.html"
     },
     {
       "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\css\\site.css",
@@ -452,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Categories\\999999999999.jpeg",
+      "SourceId": "CicekSepeti.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\",
+      "BasePath": "_content/CicekSepeti.WebUI",
+      "RelativePath": "Img/Categories/999999999999.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Categories\\999999999999.jpeg"
     },
     {
       "Identity": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\rick.jpeg",
