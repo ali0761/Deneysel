@@ -1,14 +1,12 @@
-﻿@model CicekSepeti.Core.Entities.News
+﻿@model News
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Duyuru Sil";
 }
 
-<h1>Delete</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Kayıtı silmek istediğinize emin misiniz?</h3>
 <div>
-    <h4>News</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -27,7 +25,7 @@
             @Html.DisplayNameFor(model => model.Image)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
+            <img src="/Img/@Model.Image" height="75" />
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.IsActive)
@@ -39,7 +37,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Sil" class="btn btn-danger" /> |
+        <a asp-action="Index">Listeye Dön</a>
     </form>
 </div>

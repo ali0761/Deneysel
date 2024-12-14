@@ -45,6 +45,8 @@
 					@item.CreateDate.ToShortDateString()
 				</td>
 				<td>
+					<a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@item.ID">Düzenle</a>
+					<a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.ID">Detay</a>
 					<a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.ID">Sil</a>
 				</td>
 			</tr>

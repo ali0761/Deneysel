@@ -80,7 +80,7 @@ namespace CicekSepeti.WebUI.Areas.Admin.Controllers
         // POST: Admin/News/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Description,Image,IsActive")] News news)
+        public async Task<IActionResult> Edit(int id,News news, IFormFile? Image, bool cbResimSil = false)
         {
             if (id != news.ID)
             {
@@ -91,6 +91,14 @@ namespace CicekSepeti.WebUI.Areas.Admin.Controllers
             {
                 try
                 {
+                    if (cbResimSil)
+                    {
+                        news.Image = string.Empty;
+                    }
+                    if (Image is not null)
+                    {
+                        news.Image = await FileHelper.FileLoaderAsync(Image, "/Img/");
+                    }
                     _context.Update(news);
                     await _context.SaveChangesAsync();
                 }
@@ -136,6 +144,10 @@ namespace CicekSepeti.WebUI.Areas.Admin.Controllers
             var news = await _context.News.FindAsync(id);
             if (news != null)
             {
+                if (!string.IsNullOrEmpty(news.Image))
+                {
+                    FileHelper.FileRemover(news.Image, "/Img/");
+                }
                 _context.News.Remove(news);
             }
 

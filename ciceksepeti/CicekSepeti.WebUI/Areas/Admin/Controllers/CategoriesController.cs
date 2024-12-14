@@ -4,7 +4,6 @@ using CicekSepeti.Core.Entities;
 using CicekSepeti.Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using CicekSepeti.WebUI.Utils;
-using System.Drawing.Drawing2D;
 
 namespace CicekSepeti.WebUI.Areas.Admin.Controllers
 {

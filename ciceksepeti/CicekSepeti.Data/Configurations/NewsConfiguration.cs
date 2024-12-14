@@ -10,7 +10,7 @@ namespace CicekSepeti.Data.Configurations
         {
 
             builder.Property(x => x.Name).IsRequired().HasMaxLength(250);
-            builder.Property(x => x.Description).HasMaxLength(750);
+            builder.Property(x => x.Description);
             builder.Property(x => x.Image).HasMaxLength(100);
 
         }

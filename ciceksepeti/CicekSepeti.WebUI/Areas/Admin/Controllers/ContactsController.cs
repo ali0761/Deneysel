@@ -1,5 +1,7 @@
-﻿using CicekSepeti.Data;
+﻿using CicekSepeti.Core.Entities;
+using CicekSepeti.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CicekSepeti.WebUI.Areas.Admin.Controllers
 {
@@ -16,5 +18,100 @@ namespace CicekSepeti.WebUI.Areas.Admin.Controllers
         {
             return View(_context.Contacts);
         }
-    }
+
+		public async Task<IActionResult> Edit(int? id)
+		{
+			if (id == null)
+			{
+				return NotFound();
+			}
+
+			var contact = await _context.Contacts.FindAsync(id);
+			if (contact == null)
+			{
+				return NotFound();
+			}
+			return View(contact);
+		}
+
+
+
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> Edit(int id, Contact contact)
+		{
+			if (id != contact.ID)
+			{
+				return NotFound();
+			}
+
+			if (ModelState.IsValid)
+			{
+				try
+				{
+					_context.Update(contact);
+					await _context.SaveChangesAsync();
+				}
+				catch (DbUpdateConcurrencyException)
+				{
+					if (!ContactExists(contact.ID))
+					{
+						return NotFound();
+					}
+					else
+					{
+						throw;
+					}
+				}
+				return RedirectToAction(nameof(Index));
+			}
+			return View(contact);
+		}
+
+
+
+
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var contact = await _context.Contacts.FindAsync(id);
+            if (contact == null)
+            {
+                return NotFound();
+            }
+            return View(contact);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var contact = await _context.Contacts.FindAsync(id);
+            if (contact != null)
+            {
+                _context.Contacts.Remove(contact);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+
+
+
+
+
+
+
+
+        private bool ContactExists(int id)
+		{
+			return _context.Contacts.Any(e => e.ID == id);
+		}
+	}
 }

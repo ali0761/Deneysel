@@ -78,14 +78,14 @@ namespace CicekSepeti.Data.Migrations
                         new
                         {
                             ID = 1,
-                            CreateDate = new DateTime(2024, 12, 10, 22, 42, 49, 450, DateTimeKind.Local).AddTicks(4917),
+                            CreateDate = new DateTime(2024, 12, 14, 3, 35, 29, 340, DateTimeKind.Local).AddTicks(9461),
                             Email = "admin@gmail.com",
                             IsActive = true,
                             IsAdmin = true,
                             Name = "Test",
                             Password = "123456*",
                             Surname = "User",
-                            UserGuid = new Guid("d483ce60-ab72-497a-8819-02bc5e527156"),
+                            UserGuid = new Guid("ad4cb604-ce60-4151-b127-89e63e7d6049"),
                             UserName = "Admin"
                         });
                 });
@@ -167,7 +167,7 @@ namespace CicekSepeti.Data.Migrations
                         new
                         {
                             ID = 1,
-                            CreateDate = new DateTime(2024, 12, 10, 22, 42, 49, 453, DateTimeKind.Local).AddTicks(8087),
+                            CreateDate = new DateTime(2024, 12, 14, 3, 35, 29, 343, DateTimeKind.Local).AddTicks(3131),
                             IsActive = true,
                             IsTopMenu = true,
                             Name = "Elektronik",
@@ -177,7 +177,7 @@ namespace CicekSepeti.Data.Migrations
                         new
                         {
                             ID = 2,
-                            CreateDate = new DateTime(2024, 12, 10, 22, 42, 49, 453, DateTimeKind.Local).AddTicks(8804),
+                            CreateDate = new DateTime(2024, 12, 14, 3, 35, 29, 343, DateTimeKind.Local).AddTicks(3952),
                             IsActive = true,
                             IsTopMenu = true,
                             Name = "Bilgisayar",
@@ -238,8 +238,7 @@ namespace CicekSepeti.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(750)
-                        .HasColumnType("nvarchar(750)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
                         .HasMaxLength(100)

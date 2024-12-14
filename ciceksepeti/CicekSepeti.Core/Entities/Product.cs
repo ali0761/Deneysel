@@ -26,7 +26,7 @@ namespace CicekSepeti.Core.Entities
         [Display(Name = "Aktif?")]
 
         public bool IsActive { get; set; }
-        [Display(Name = "Anasayfada Göster ")]
+        [Display(Name = "Anasayfa")]
 
         public bool IsHome { get; set; }
         [Display(Name = "Kategori")]

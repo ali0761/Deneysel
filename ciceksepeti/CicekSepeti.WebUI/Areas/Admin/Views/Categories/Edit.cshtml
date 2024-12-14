@@ -11,6 +11,9 @@
 		<form asp-action="Edit" enctype="multipart/form-data">
 			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
 			<input type="hidden" asp-for="ID" />
+			<input type="hidden" asp-for="Image" />
+			<input type="hidden" asp-for="CreateDate" />
+
 			<div class="form-group">
 				<label asp-for="Name" class="control-label"></label>
 				<input asp-for="Name" class="form-control" />
@@ -18,7 +21,7 @@
 			</div>
 			<div class="form-group">
 				<label asp-for="Description" class="control-label"></label>
-				<textarea asp-for="Name" class="form-control"></textarea>
+				<textarea asp-for="Description" class="form-control"></textarea>
 				<span asp-validation-for="Description" class="text-danger"></span>
 			</div>
 			<div class="form-group">
@@ -29,7 +32,7 @@
 				{
 					<img src="/Img/Categories/@Model.Image" height="75" />
 					<label class="form-check-label">
-						@Html.CheckBox("cbResimSil") Logoyu Sil
+						@Html.CheckBox("cbResimSil") Resmi Sil
 
 					</label>
 				}

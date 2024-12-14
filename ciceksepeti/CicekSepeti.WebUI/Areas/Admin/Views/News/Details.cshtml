@@ -1,13 +1,10 @@
-﻿@model CicekSepeti.Core.Entities.News
+﻿@model News
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Duyuru Detay";
 }
 
-<h1>Details</h1>
-
 <div>
-    <h4>News</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -26,7 +23,7 @@
             @Html.DisplayNameFor(model => model.Image)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
+            <img src="/Img/@Model.Image" height="75" />
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.IsActive)
@@ -37,6 +34,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.ID">Düzenle</a> |
+    <a asp-action="Index">Listeye Dön</a>
 </div>

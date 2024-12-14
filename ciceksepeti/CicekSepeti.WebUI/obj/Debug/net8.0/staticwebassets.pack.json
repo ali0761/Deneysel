@@ -5,12 +5,72 @@
       "PackagePath": "staticwebassets\\CicekSepeti.WebUI.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Categories\\999999999999.jpeg",
-      "PackagePath": "staticwebassets\\Img\\Categories\\999999999999.jpeg"
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Products\\11111.jpeg",
+      "PackagePath": "staticwebassets\\Img\\Products\\11111.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Products\\araba1.jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\araba1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Products\\karküresi.jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\karküresi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Products\\nokia.webp",
+      "PackagePath": "staticwebassets\\Img\\Products\\nokia.webp"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Products\\qeeeq.jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\qeeeq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Products\\urn1.jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\urn1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Slider\\duyurukampanya.jpg",
+      "PackagePath": "staticwebassets\\Img\\Slider\\duyurukampanya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Slider\\guncelkmpn.jpg",
+      "PackagePath": "staticwebassets\\Img\\Slider\\guncelkmpn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Slider\\kampduy1.png",
+      "PackagePath": "staticwebassets\\Img\\Slider\\kampduy1.png"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Slider\\sl.jpeg",
+      "PackagePath": "staticwebassets\\Img\\Slider\\sl.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\Slider\\yilbasi.jpg",
+      "PackagePath": "staticwebassets\\Img\\Slider\\yilbasi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\duyurukampanya.jpg",
+      "PackagePath": "staticwebassets\\Img\\duyurukampanya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\kmpn.png",
+      "PackagePath": "staticwebassets\\Img\\kmpn.png"
     },
     {
       "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\rick.jpeg",
       "PackagePath": "staticwebassets\\Img\\rick.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\slider2.jpg",
+      "PackagePath": "staticwebassets\\Img\\slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\slider3.jpg",
+      "PackagePath": "staticwebassets\\Img\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\Img\\slider4.jpg",
+      "PackagePath": "staticwebassets\\Img\\slider4.jpg"
     },
     {
       "Id": "C:\\Users\\muham\\source\\repos\\ciceksepeti\\CicekSepeti.WebUI\\wwwroot\\admin\\admin\\401.html",
