@@ -1,4 +1,5 @@
-﻿using CicekSepeti.Data;
+﻿using CicekSepeti.Core.Entities;
+using CicekSepeti.Service.Abstract;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,11 +7,11 @@ namespace CicekSepeti.WebUI.Controllers
 {
     public class CategoriesController : Controller
     {
-        private readonly DatabaseContext _context;
+        private readonly IService<Category> _service;
 
-        public CategoriesController(DatabaseContext context)
+        public CategoriesController(IService<Category> service)
         {
-            _context = context;
+            _service = service;
         }
         public async Task<IActionResult> IndexAsync(int? id)
         {
@@ -19,7 +20,7 @@ namespace CicekSepeti.WebUI.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Categories.Include(p => p.Products)
+            var category = await _service.GetQueryable().Include(p => p.Products)
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (category == null)
             {

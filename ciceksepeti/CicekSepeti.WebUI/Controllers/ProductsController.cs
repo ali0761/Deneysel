@@ -1,4 +1,5 @@
-﻿using CicekSepeti.Data;
+﻿using CicekSepeti.Core.Entities;
+using CicekSepeti.Service.Abstract;
 using CicekSepeti.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -7,16 +8,17 @@ namespace CicekSepeti.WebUI.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly DatabaseContext _context;
+        private readonly IService<Product> _serviceProduct;
 
-        public ProductsController(DatabaseContext context)
+        public ProductsController(IService<Product> serviceProduct)
         {
-            _context = context;
+            _serviceProduct = serviceProduct;
         }
+
         public async Task<IActionResult> Index(string q ="")
         {
-            var databaseContext = _context.Products.Where(p=>p.IsActive && p.Name.Contains(q) || p.Description.Contains(q)).Include(p => p.Brand).Include(p => p.Category);
-            return View(await databaseContext.ToListAsync());
+            var databaseContext = _serviceProduct.GetAllAsync(p=>p.IsActive && p.Name.Contains(q) || p.Description.Contains(q));
+            return View(await databaseContext);
         }
         public async Task<IActionResult> Details(int? id)
         {
@@ -25,7 +27,7 @@ namespace CicekSepeti.WebUI.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products
+            var product = await _serviceProduct.GetQueryable()
                 .Include(p => p.Brand)
                 .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.ID == id);
@@ -34,7 +36,7 @@ namespace CicekSepeti.WebUI.Controllers
                 return NotFound();
             }
             var model = new ProductDetailViewModel() { Product = product,
-                RelatedProducts = _context.Products.Where(p => p.IsActive && p.CategoryID == product.CategoryID && p.ID != product.ID)
+                RelatedProducts = _serviceProduct.GetQueryable().Where(p => p.IsActive && p.CategoryID == product.CategoryID && p.ID != product.ID)
             };
             return View(model);
         }

@@ -3,10 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using CicekSepeti.Core.Entities;
 using CicekSepeti.Data;
 using CicekSepeti.WebUI.Utils;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CicekSepeti.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"),Authorize(Policy = "AdminPolicy")]
     public class BrandsController : Controller
     {
         private readonly DatabaseContext _context;

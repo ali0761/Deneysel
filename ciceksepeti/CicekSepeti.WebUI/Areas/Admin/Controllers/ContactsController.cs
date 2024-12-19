@@ -1,12 +1,13 @@
 ﻿using CicekSepeti.Core.Entities;
 using CicekSepeti.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CicekSepeti.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
-    public class ContactsController : Controller
+	[Area("Admin"), Authorize(Policy = "AdminPolicy")]
+	public class ContactsController : Controller
     {
         private readonly DatabaseContext _context;
 

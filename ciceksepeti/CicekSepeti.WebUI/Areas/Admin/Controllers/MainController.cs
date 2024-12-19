@@ -1,10 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CicekSepeti.WebUI.Areas.Admin.Controllers
 {
 
-    [Area("Admin")]
-    public class MainController : Controller
+	[Area("Admin"), Authorize(Policy = "AdminPolicy")]
+	public class MainController : Controller
     {
         public IActionResult Index()
         {

@@ -3,11 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using CicekSepeti.Core.Entities;
 using CicekSepeti.Data;
 using CicekSepeti.WebUI.Utils;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CicekSepeti.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
-    public class NewsController : Controller
+	[Area("Admin"), Authorize(Policy = "AdminPolicy")]
+	public class NewsController : Controller
     {
         private readonly DatabaseContext _context;
 

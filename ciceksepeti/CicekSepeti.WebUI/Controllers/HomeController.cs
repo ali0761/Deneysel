@@ -1,35 +1,45 @@
 using CicekSepeti.Core.Entities;
-using CicekSepeti.Data;
+using CicekSepeti.Service.Abstract;
 using CicekSepeti.WebUI.Models;
-using CicekSepeti.WebUI.Utils;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
-using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace CicekSepeti.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly DatabaseContext _context;
+        private readonly IService<Product> _serviceProduct;
+        private readonly IService<Slider> _serviceSlider;
+        private readonly IService<News> _serviceNews;
+        private readonly IService<Contact> _serviceContact;
 
-        public HomeController(DatabaseContext context)
+        public HomeController(IService<Product> serviceProduct, IService<Slider> serviceSlider, IService<News> serviceNews, IService<Contact> serviceContact)
         {
-            _context = context;
+            _serviceProduct = serviceProduct;
+            _serviceSlider = serviceSlider;
+            _serviceNews = serviceNews;
+            _serviceContact = serviceContact;
         }
 
         public async Task<IActionResult> Index()
         {
             var model = new HomePageViewModel()
             {
-                Sliders = await _context.Sliders.ToListAsync(),
-                News = await _context.News.ToListAsync(),
-                Products = await _context.Products.Where(p => p.IsActive && p.IsHome).ToListAsync(),
+                Sliders = await _serviceSlider.GetAllAsync(),
+                News = await _serviceNews.GetAllAsync(),
+                Products = await _serviceProduct.GetAllAsync(p => p.IsActive && p.IsHome)
             };
             return View(model);
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+		[Route("AccessDenied")]
+
+		public IActionResult AccessDenied()
         {
             return View();
         }
@@ -44,8 +54,8 @@ namespace CicekSepeti.WebUI.Controllers
             {
                 try
                 {
-                   await _context.Contacts.AddAsync(contact);
-                    var sonuc = await _context.SaveChangesAsync();
+                   await _serviceContact.AddAsync(contact);
+                    var sonuc = await _serviceContact.SaveChangesAsync();
                     if (sonuc > 0)
                     {
 

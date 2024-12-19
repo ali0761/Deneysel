@@ -4,11 +4,12 @@ using CicekSepeti.Core.Entities;
 using CicekSepeti.Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using CicekSepeti.WebUI.Utils;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CicekSepeti.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
-    public class CategoriesController : Controller
+	[Area("Admin"), Authorize(Policy = "AdminPolicy")]
+	public class CategoriesController : Controller
     {
         private readonly DatabaseContext _context;
 

@@ -2,18 +2,20 @@
 using Microsoft.EntityFrameworkCore; 
 using CicekSepeti.Core.Entities;
 using CicekSepeti.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CicekSepeti.WebUI.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Policy="AdminPolicy")]
     public class AppUsersController : Controller
     {
-        private readonly DatabaseContext _context;
+            private readonly DatabaseContext _context;
 
-        public AppUsersController(DatabaseContext context)
-        {
-            _context = context;
-        }
+            public AppUsersController(DatabaseContext context)
+            {
+                _context = context;
+            }
 
         // GET: Admin/AppUsers
         public async Task<IActionResult> Index()
@@ -46,8 +48,6 @@ namespace CicekSepeti.WebUI.Areas.Admin.Controllers
         }
 
         // POST: Admin/AppUsers/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(AppUser appUser)

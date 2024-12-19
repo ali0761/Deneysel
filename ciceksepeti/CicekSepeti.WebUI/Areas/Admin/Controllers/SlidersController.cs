@@ -1,13 +1,14 @@
 ﻿using CicekSepeti.Core.Entities;
 using CicekSepeti.Data;
 using CicekSepeti.WebUI.Utils;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CicekSepeti.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
-    public class SlidersController : Controller
+	[Area("Admin"), Authorize(Policy = "AdminPolicy")]
+	public class SlidersController : Controller
     {
         private readonly DatabaseContext _context;
 
