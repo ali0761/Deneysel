@@ -3,6 +3,7 @@ using CicekSepeti.Service.Abstract;
 using CicekSepeti.Service.Concrate;
 using CicekSepeti.WebUI.ExtensionMethods;
 using CicekSepeti.WebUI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CicekSepeti.WebUI.Controllers
@@ -63,6 +64,19 @@ namespace CicekSepeti.WebUI.Controllers
 			return RedirectToAction("Index");
 
 		}
+
+		[Authorize]
+		public IActionResult Checkout()
+		{
+			var cart = GetCart();
+			var model = new CheckoutViewModel()
+			{
+				CartProducts = cart.CartLines,
+				TotalPrice = cart.TotalPrice()
+			};
+			return View(model);
+		}
+
 		private CartService GetCart()
 		{
 			return HttpContext.Session.GetJson<CartService>("Cart") ?? new CartService();	
